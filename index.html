@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- セキュリティ設定（GitHub Pages はレスポンスヘッダーを設定できないため meta で指定） -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>TELAS PROJECT｜奇跡の1000年桜プロジェクト</title>
   <meta name="description" content="1000年後の誰かのために。与論島に1,000本の陽光桜を植える、奇跡の1000年桜プロジェクト。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -204,7 +207,7 @@
               <li class="gift"><img src="assets/img/gift-03.jpg" alt="" width="267" height="183"><span>与論特産品</span></li>
               <li class="gift"><img src="assets/img/gift-04.jpg" alt="" width="267" height="183"><span>与論織物品</span></li>
             </ul>
-            <a href="https://furusato.jal.co.jp/jgcf/child/db03f05eccd2a3b4df2fd2cadba4b9b3" class="btn btn--lg join__btn" target="_blank" rel="noopener">JALふるさとクラウドファンディングで応援する</a>
+            <a href="https://furusato.jal.co.jp/jgcf/child/db03f05eccd2a3b4df2fd2cadba4b9b3" class="btn btn--lg join__btn" target="_blank" rel="noopener noreferrer">JALふるさとクラウドファンディングで応援する</a>
             <p class="join__closing">
               <span class="join__closing-pink">100年、1000年先へ。</span><br>
               一緒に、未来の景色をつくりませんか。
