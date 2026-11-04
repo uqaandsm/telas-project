@@ -266,6 +266,27 @@ em { font-style: normal; }
 }
 .wave--hero { bottom: -1px; height: 40px; z-index: 2; }
 
+/* ---------- Movie ---------- */
+.movie {
+  position: relative;
+  padding: 28px 0 40px;
+}
+.movie__frame {
+  max-width: 880px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 8px 24px rgba(29, 36, 87, .12);
+}
+.movie__frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* ---------- Story ---------- */
 .story {
   position: relative;
@@ -755,6 +776,7 @@ em { font-style: normal; }
     border-top: 2px solid var(--pink-line);
   }
 
+  .movie { padding: 20px 0 28px; }
   .vision { padding: 64px 0 80px; }
   .vision__cards { grid-template-columns: 1fr; gap: 20px; max-width: 480px; margin-inline: auto; }
   .vision__tagline { gap: 14px; font-size: 15px; text-align: center; }

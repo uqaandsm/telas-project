@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- セキュリティ設定（GitHub Pages はレスポンスヘッダーを設定できないため meta で指定） -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>TELAS PROJECT｜奇跡の1000年桜プロジェクト</title>
   <meta name="description" content="1000年後の誰かのために。与論島に1,000本の陽光桜を植える、奇跡の1000年桜プロジェクト。">
@@ -47,6 +47,16 @@
       <svg class="wave wave--hero" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 34 C200 10 360 8 560 30 S940 56 1200 18 V60 H0Z" fill="#fff"/>
       </svg>
+    </section>
+
+    <!-- ===== Movie ===== -->
+    <section class="movie" aria-label="プロジェクト紹介動画">
+      <div class="container">
+        <div class="movie__frame">
+          <!-- 差し替え: 動画IDを変更（https://youtu.be/xxxx の xxxx 部分） -->
+          <iframe src="https://www.youtube-nocookie.com/embed/lxr6e3XrZ24?rel=0" title="TELAS PROJECT 紹介動画" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
     </section>
 
     <!-- ===== Our Story ===== -->
