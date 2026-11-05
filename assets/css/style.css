@@ -470,9 +470,8 @@ em { font-style: normal; }
 }
 .ach__img--magazine {
   margin-top: 6px;
-  height: 222px;
-  margin-bottom: 25px;
-  object-fit: cover;
+  height: 247px;
+  object-fit: contain;
 }
 .ach__text {
   margin-top: 12px;
